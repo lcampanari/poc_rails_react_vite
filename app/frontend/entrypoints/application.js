@@ -4,7 +4,7 @@ import { viteConstructorRequireContext } from '../helpers/viteHelpers'
 import ReactRailsUJS from 'react_ujs'
 
 const componentsRequireContext = import.meta.globEager(
-  '~/components/**/*.{js,jsx}'
+  '~/components/**/*.{js,jsx,ts,tsx}'
 )
 ReactRailsUJS.getConstructor = viteConstructorRequireContext(
   componentsRequireContext
