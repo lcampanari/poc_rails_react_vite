@@ -1,0 +1,2 @@
+vite: bin/vite dev --clobber
+web: bin/rails server -p 3000
