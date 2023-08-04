@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es6",
+      "dom",
+      "es2017.object",
+      "es2016.array.include",
+      "ES2019.Array"
+    ],
+    "module": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es5",
+    "jsx": "react",
+    "strictPropertyInitialization": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "downlevelIteration": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": false, // TODO: this should be set to true when all errors are fixed
+    "noUnusedParameters": false, // TODO: this should be set to true when all errors are fixed,
+    "isolatedModules": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["test", "node_modules", "vendor", "public"],
+  "compileOnSave": false
+}
