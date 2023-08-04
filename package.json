@@ -10,6 +10,9 @@
     "react_ujs": "^2.7.1",
     "turbolinks": "^5.2.0",
     "typescript": "^3.9.7",
+    "@ventionco/machine-cloud-components": "1.86.1",
+    "@ventionco/machine-cloud-models": "1.86.1",
+    "@ventionco/machine-cloud-shared-components": "1.86.1"
   },
   "version": "0.1.0",
   "devDependencies": {
@@ -18,9 +21,6 @@
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-tailwindcss": "^3.13.0",
     "path": "^0.12.7",
-    "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-import": "^15.1.0",
-    "postcss-preset-env": "^9.0.0",
     "prettier": "^3.0.0",
     "sass": "^1.63.6",
     "vite": "^4.3.0",
